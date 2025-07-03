@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE special_train::special_train_options
+          special_train::special_train_warnings)
 
 target_link_system_libraries(
   intro

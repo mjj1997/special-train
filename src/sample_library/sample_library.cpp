@@ -1,4 +1,4 @@
-#include <myproject/sample_library.hpp>
+#include <special_train/sample_library.hpp>
 
 #include <format>
 #include <iostream>
