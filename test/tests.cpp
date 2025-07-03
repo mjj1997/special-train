@@ -12,3 +12,5 @@ TEST_CASE("Factorials are computed", "[factorial]")
   REQUIRE(factorial(3) == 6);
   REQUIRE(factorial(10) == 3628800);
 }
+
+TEST_CASE("Test greeting", "[greeting]") { greeting(); }

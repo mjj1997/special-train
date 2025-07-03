@@ -12,4 +12,5 @@
   return input * factorial_constexpr(input - 1);
 }
 
+void greeting();
 #endif
